@@ -1,0 +1,95 @@
+body 
+{
+	font-size: 100%;
+	font-family: 'Roboto Slab';
+	font-weight: 400;
+	background-color: #000;
+	color: #fff;
+}
+
+a
+{
+	color: #77cb00;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+p
+{
+	line-height:1.5em;
+}
+
+a.nav
+{
+	font-size:1.5em;
+	padding:0 1em;
+}
+
+.header 
+{
+	width:100%;
+	position:fixed;
+	top:0px;
+	height: 3em;
+	padding-top: 1em;
+	background-color: #555;
+	/*margin-bottom: 6em;*/
+}
+
+#logo
+{
+	margin-top: -.25em;
+}
+
+.content
+{
+	margin-top: 9em;
+	margin-bottom: 3em;
+}
+
+.footer
+{
+	background-color: #444;
+	bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.footer>div>p
+{
+	text-align:center;
+	float: left;
+	padding: 1.75em 1em 0 1em;
+}
+.footer>div>img
+{
+	text-align:center;
+	float: left;
+	padding: .75em 1em;
+}
+
+.test{float:left;clear:left;}
+
+div.slant
+{
+	width: 100px;
+	height: 300px;
+	background-color: #444;
+	margin-left: 20px;
+	float: left;
+	transform: skew(15deg,0deg);
+	-ms-transform: skew(15deg,0deg); /* IE 9 */
+	-webkit-transform: skew(15deg,0deg); /* Safari and Chrome */
+	overflow: hidden;
+}
+.slant>a>img
+{
+	max-width: none;
+	transform: skew(-15deg,0deg);
+	-ms-transform: skew(-15deg,0deg); /* IE 9 */
+	-webkit-transform: skew(-15deg,0deg); /* Safari and Chrome */
+	margin-left: -50px;
+}
+/*.slant:first-of-type
+{
+	margin-left: 60px;
+}*/

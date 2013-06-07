@@ -1,0 +1,27 @@
+div
+{
+	width:100px;
+	height:375px;
+	background-color:#444;
+	border:0px solid black;
+	margin-left: 20px;
+}
+div.slant
+{
+	float:left;
+	transform:skew(15deg,0deg);
+	-ms-transform:skew(15deg,0deg); /* IE 9 */
+	-webkit-transform:skew(15deg,0deg); /* Safari and Chrome */
+	overflow:hidden;
+}
+.slant>a>img
+{
+	transform:skew(-15deg,0deg);
+	-ms-transform:skew(-15deg,0deg); /* IE 9 */
+	-webkit-transform:skew(-15deg,0deg); /* Safari and Chrome */
+	margin-left:-50px;
+}
+.slant:first-of-type
+{
+	margin-left: 10px;
+}

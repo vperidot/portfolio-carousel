@@ -1,0 +1,54 @@
+#split-container {
+	width:400px;
+	height:300px;
+	border:0px;
+	margin:0px;
+	padding:0px;
+}
+
+#leftside {
+	position:relative;
+	top: 300px;
+	left: -400px;
+	border:0px;
+	margin:0px;
+	padding:0px;
+	animation: split-diagonal-left 5s;
+	-webkit-animation: split-diagonal-left 5s;
+}
+
+#rightside {
+	position:relative;
+	top: -603px;
+	left: 400px;
+	border:0px;
+	margin:0px;
+	padding:0px;
+	animation: split-diagonal-right 5s;
+	-webkit-animation: split-diagonal-right 5s;
+}
+
+
+/* ||||||||||||||| SPLIT ANIMATION KEYFRAME DEFINITIONS ||||||||||||||| */
+
+@keyframes split-diagonal-left
+{
+	from {top: 0px; left: 0px;}
+	to {top: 300px; left:-400px;}
+}
+@-webkit-keyframes split-diagonal-left /* Safari and Chrome */
+{
+	from {top: 0px; left: 0px;}
+	to {top: 300px; left:-400px;}
+}
+
+@keyframes split-diagonal-right
+{
+	from {top: -303px; left: 0px;}
+	to {top: -603px; left: 400px;}
+}
+@-webkit-keyframes split-diagonal-right /* Safari and Chrome */
+{
+	from {top: -303px; left: 0px;}
+	to {top: -603px; left:400px;}
+}
